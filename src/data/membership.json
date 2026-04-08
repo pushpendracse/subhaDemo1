@@ -1,0 +1,60 @@
+{
+  "programName": "Les Amis de la Maison",
+  "programSubtitle": "Our Circle of Distinguished Guests",
+  "description": "A private membership reserved for those who appreciate the rarest things in life. Every visit becomes a celebration.",
+  "tiers": [
+    {
+      "id": "membre",
+      "name": "Membre",
+      "nameEn": "Member",
+      "price": "Complimentary",
+      "monthlyPrice": "0",
+      "description": "Your first step into our world of refined privilege.",
+      "color": "#c4a35a",
+      "perks": [
+        "Priority reservation access (48 hours advance)",
+        "Complimentary amuse-bouche on arrival",
+        "Birthday dinner with champagne toast",
+        "Monthly newsletter with chef's notes",
+        "10% on private dining events"
+      ]
+    },
+    {
+      "id": "habitue",
+      "name": "Habitué",
+      "nameEn": "Regular",
+      "price": "$250 / year",
+      "monthlyPrice": "250",
+      "description": "For those who consider Maison Dorée their second home.",
+      "color": "#d4a832",
+      "popular": true,
+      "perks": [
+        "Reserved table — your preferred corner, always",
+        "Complimentary sommelier consultation",
+        "Seasonal truffle or caviar gift",
+        "Invitation to private tasting evenings",
+        "15% on all private events",
+        "Dedicated reservations concierge"
+      ]
+    },
+    {
+      "id": "connaisseur",
+      "name": "Connaisseur",
+      "nameEn": "Connoisseur",
+      "price": "$1,200 / year",
+      "monthlyPrice": "1200",
+      "description": "The pinnacle of our hospitality, reserved for an elite few.",
+      "color": "#8b7355",
+      "perks": [
+        "Permanent reserved table in our finest alcove",
+        "Annual private dinner with Chef Dubois",
+        "Curated wine cases delivered quarterly",
+        "Access to unreleased menu previews",
+        "Exclusive vintage cellar allocations",
+        "Concierge travel & hotel partnerships",
+        "Personalised monogrammed linen napkins",
+        "Invitation to all private & charity events"
+      ]
+    }
+  ]
+}

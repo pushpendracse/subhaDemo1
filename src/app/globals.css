@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Google Fonts ─────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* ─── CSS Variables ─────────────────────────────────────── */
+:root {
+  --font-display: 'Cormorant Garamond', 'Didot', serif;
+  --font-body:    'Montserrat', 'Optima', sans-serif;
+  --font-accent:  'Playfair Display', 'Georgia', serif;
+
+  --gold:         #c9a84c;
+  --gold-light:   #e8d5a3;
+  --gold-dark:    #9a7c2e;
+  --obsidian:     #0f0e0c;
+  --charcoal:     #1c1a17;
+  --warm-white:   #faf8f3;
+  --ivory:        #f2ede3;
+  --parchment:    #e8dfc8;
+  --text-primary: #1a1814;
+  --text-muted:   #6b6456;
+
+  --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ─── Reset & Base ──────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--warm-white);
+  color: var(--text-primary);
+  font-size: 15px;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+/* ─── Typography Classes ────────────────────────────────── */
+.font-display  { font-family: var(--font-display); }
+.font-accent   { font-family: var(--font-accent); }
+
+/* ─── Gold Utilities ────────────────────────────────────── */
+.text-gold     { color: var(--gold); }
+.bg-gold       { background-color: var(--gold); }
+.border-gold   { border-color: var(--gold); }
+
+.gold-gradient {
+  background: linear-gradient(135deg, #c9a84c 0%, #e8d5a3 50%, #c9a84c 100%);
+}
+.text-gold-gradient {
+  background: linear-gradient(135deg, #9a7c2e 0%, #c9a84c 40%, #e8d5a3 60%, #c9a84c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ─── Divider ───────────────────────────────────────────── */
+.ornament-divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--gold);
+  letter-spacing: 0.3em;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+.ornament-divider::before,
+.ornament-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--gold), transparent);
+}
+
+/* ─── Section Heading ───────────────────────────────────── */
+.section-eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+/* ─── Card Hover ────────────────────────────────────────── */
+.card-lift {
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.card-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.12);
+}
+
+/* ─── Smooth Scrollbar ──────────────────────────────────── */
+.scrollbar-hide { scrollbar-width: none; }
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+
+/* ─── Focus ─────────────────────────────────────────────── */
+*:focus-visible {
+  outline: 1.5px solid var(--gold);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ─── Selection ─────────────────────────────────────────── */
+::selection {
+  background: rgba(201,168,76,0.2);
+  color: var(--text-primary);
+}
+
+/* ─── Animation Delays ──────────────────────────────────── */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+
+/* ─── Fade on scroll ────────────────────────────────────── */
+.animate-fade-up {
+  opacity: 0;
+  animation: fadeUp 0.9s ease forwards;
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

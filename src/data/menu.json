@@ -1,0 +1,144 @@
+{
+  "categories": [
+    { "id": "tasting",   "name": "Tasting Menu",   "label": "Chef's Selection" },
+    { "id": "entrees",   "name": "Entrées",         "label": "First Course" },
+    { "id": "mains",     "name": "Plats Principaux","label": "Main Course" },
+    { "id": "desserts",  "name": "Desserts",        "label": "Sweet Finale" }
+  ],
+  "items": [
+    {
+      "id": "t1",
+      "name": "Grand Dégustation",
+      "description": "An eight-course journey through our chef's finest creations, paired with sommelier-curated wines from our 2,000-bottle cellar.",
+      "price": 295,
+      "priceNote": "per person, wine pairing +$145",
+      "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=800&q=85",
+      "category": "tasting",
+      "isSignature": true,
+      "courses": 8,
+      "duration": "3–4 hours"
+    },
+    {
+      "id": "t2",
+      "name": "Menu Découverte",
+      "description": "Five thoughtfully composed courses celebrating the season's finest produce, a perfect introduction to our culinary philosophy.",
+      "price": 185,
+      "priceNote": "per person, wine pairing +$95",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=85",
+      "category": "tasting",
+      "isSignature": false,
+      "courses": 5,
+      "duration": "2–3 hours"
+    },
+    {
+      "id": "e1",
+      "name": "Foie Gras Poêlé",
+      "description": "Pan-seared duck foie gras, Sauternes reduction, brioche toast, Granny Smith apple compote, micro herbs.",
+      "price": 48,
+      "image": "https://images.unsplash.com/photo-1576402187878-974f70c890a5?w=800&q=85",
+      "category": "entrees",
+      "isSignature": true,
+      "allergens": ["gluten", "dairy"]
+    },
+    {
+      "id": "e2",
+      "name": "Carpaccio de Saint-Jacques",
+      "description": "Scottish hand-dived scallops, yuzu vinaigrette, caviar, cucumber water, edible flowers, gold leaf.",
+      "price": 42,
+      "image": "https://images.unsplash.com/photo-1539755530862-00f623c00f52?w=800&q=85",
+      "category": "entrees",
+      "isSignature": false,
+      "allergens": ["shellfish"]
+    },
+    {
+      "id": "e3",
+      "name": "Soupe à la Truffe Noire",
+      "description": "Black Périgord truffle velouté, artisan cream, crispy pancetta, chive oil, puff pastry dome.",
+      "price": 52,
+      "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=85",
+      "category": "entrees",
+      "isSignature": true,
+      "allergens": ["gluten", "dairy", "pork"]
+    },
+    {
+      "id": "e4",
+      "name": "Tartare de Langoustine",
+      "description": "Norwegian langoustine tartare, avocado mousseline, tomato water jelly, crispy quinoa, dill oil.",
+      "price": 56,
+      "image": "https://images.unsplash.com/photo-1607877361964-d8f72e09e7d1?w=800&q=85",
+      "category": "entrees",
+      "isSignature": false,
+      "allergens": ["shellfish"]
+    },
+    {
+      "id": "m1",
+      "name": "Filet de Bœuf Rossini",
+      "description": "28-day dry-aged Wagyu beef tenderloin, pan-seared foie gras, black truffle sauce, potato dauphinoise, haricots verts.",
+      "price": 125,
+      "image": "https://images.unsplash.com/photo-1558030006-450675393462?w=800&q=85",
+      "category": "mains",
+      "isSignature": true,
+      "allergens": ["dairy"]
+    },
+    {
+      "id": "m2",
+      "name": "Homard Thermidor",
+      "description": "Whole Nova Scotia lobster, cognac cream sauce, Gruyère gratin, tarragon butter, seasonal vegetables.",
+      "price": 145,
+      "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=800&q=85",
+      "category": "mains",
+      "isSignature": true,
+      "allergens": ["shellfish", "dairy"]
+    },
+    {
+      "id": "m3",
+      "name": "Pigeon en Croûte de Sel",
+      "description": "Whole roasted squab in herb salt crust, foie gras stuffing, morel mushroom jus, roasted root vegetables.",
+      "price": 98,
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=85",
+      "category": "mains",
+      "isSignature": false,
+      "allergens": ["gluten"]
+    },
+    {
+      "id": "m4",
+      "name": "Sole Meunière Classique",
+      "description": "Whole Dover sole, brown butter, capers, lemon, parsley, pommes vapeur, watercress salad.",
+      "price": 88,
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=85",
+      "category": "mains",
+      "isSignature": false,
+      "allergens": ["fish", "dairy"]
+    },
+    {
+      "id": "d1",
+      "name": "Soufflé au Chocolat Valrhona",
+      "description": "Warm 70% Valrhona dark chocolate soufflé, Madagascar vanilla ice cream, praline tuile. Please allow 20 minutes.",
+      "price": 32,
+      "image": "https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?w=800&q=85",
+      "category": "desserts",
+      "isSignature": true,
+      "allergens": ["gluten", "dairy", "eggs"]
+    },
+    {
+      "id": "d2",
+      "name": "Mille-Feuille Caramel Beurre Salé",
+      "description": "Caramelised puff pastry, Brittany salted caramel cream, crystallised violets, tonka bean ice cream.",
+      "price": 28,
+      "image": "https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?w=800&q=85",
+      "category": "desserts",
+      "isSignature": false,
+      "allergens": ["gluten", "dairy", "eggs"]
+    },
+    {
+      "id": "d3",
+      "name": "Île Flottante Revisitée",
+      "description": "Cloud-light meringue island, crème anglaise, caramel lace, pink praline, orange blossom water.",
+      "price": 24,
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=85",
+      "category": "desserts",
+      "isSignature": false,
+      "allergens": ["dairy", "eggs"]
+    }
+  ]
+}

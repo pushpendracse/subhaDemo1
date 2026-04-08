@@ -1,0 +1,52 @@
+{
+  "experiences": [
+    {
+      "id": "1",
+      "title": "Chef's Table Experience",
+      "subtitle": "An Evening in Our Kitchen",
+      "description": "Dine at the heart of our kitchen with Chef Dubois. An intimate 6-seat table with a bespoke 10-course menu, live culinary theatre, and personalised wine pairing.",
+      "price": 450,
+      "priceNote": "per person, inclusive of wine pairing",
+      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=85",
+      "availability": "Friday & Saturday evenings",
+      "badge": "EXCLUSIVE",
+      "badgeColor": "gold"
+    },
+    {
+      "id": "2",
+      "title": "Cave Privée Dinner",
+      "subtitle": "Our Historic Wine Cellar",
+      "description": "A private dining experience in our 1920s stone wine cellar. Seats up to 12 guests. Includes a guided tour of our 2,000-bottle collection with the sommelier.",
+      "price": 380,
+      "priceNote": "per person, minimum 6 guests",
+      "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=85",
+      "availability": "By appointment",
+      "badge": "PRIVATE",
+      "badgeColor": "dark"
+    },
+    {
+      "id": "3",
+      "title": "Sunday Garden Brunch",
+      "subtitle": "Terrace & Champagne",
+      "description": "A leisurely Sunday affair on our garden terrace. Free-flow Laurent-Perrier champagne, à la carte brunch menu, and live classical quartet from 12 noon.",
+      "price": 145,
+      "priceNote": "per person, champagne inclusive",
+      "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=85",
+      "availability": "Sundays, 12:00 – 3:00 PM",
+      "badge": "SEASONAL",
+      "badgeColor": "olive"
+    },
+    {
+      "id": "4",
+      "title": "Carte Blanche Dinner",
+      "subtitle": "Trust the Chef Completely",
+      "description": "Surrender your evening entirely to Chef Dubois. No menu — just the finest ingredients of the day, composed into an unrepeatable 7-course masterpiece.",
+      "price": 220,
+      "priceNote": "per person, beverage pairing optional",
+      "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=800&q=85",
+      "availability": "Tuesday – Thursday",
+      "badge": "POPULAR",
+      "badgeColor": "gold"
+    }
+  ]
+}

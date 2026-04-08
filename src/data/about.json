@@ -1,0 +1,60 @@
+{
+  "story": {
+    "badge": "Since 1997",
+    "heading": "A Quarter Century of Culinary Excellence",
+    "paragraphs": [
+      "Maison Dorée was born from a single conviction: that dining is not merely sustenance, but one of life's highest arts. Founded in 1997 by Chef Édouard Dubois, our restaurant has evolved from a quiet neighbourhood table into one of the world's most celebrated fine dining destinations.",
+      "Our philosophy is rooted in classical French technique, yet liberated by an obsessive curiosity for the world's finest ingredients. Each dish is a conversation between tradition and imagination — honouring the masters while daring to speak something wholly new."
+    ],
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=90",
+    "imageAlt": "Maison Dorée dining room — warm candlelight and white linen"
+  },
+  "chef": {
+    "name": "Chef Édouard Dubois",
+    "title": "Chef-Patron & Founder",
+    "image": "https://images.unsplash.com/photo-1581299894007-aaa50297cf16?w=600&q=85",
+    "bio": "Trained under Joël Robuchon in Paris and Heston Blumenthal in Bray, Chef Dubois returned to New York in 1997 with a singular vision. In 2003, he received his first Michelin star; in 2011, his second. He cooks every service himself.",
+    "quote": "I do not cook for critics or awards. I cook for the moment when a guest closes their eyes at the first bite."
+  },
+  "stats": [
+    { "number": "2",    "label": "Michelin Stars" },
+    { "number": "27",   "label": "Years of Excellence" },
+    { "number": "12",   "label": "Sommelier Awards" },
+    { "number": "2,000","label": "Bottles in Our Cellar" }
+  ],
+  "values": [
+    {
+      "title": "Provenance",
+      "description": "Every ingredient is traced to its origin — our lamb from the Pyrenées, our langoustines from Scotland, our truffles from Périgord."
+    },
+    {
+      "title": "Craft",
+      "description": "Classical French technique, honed over decades, is the invisible architecture behind every plate that leaves our kitchen."
+    },
+    {
+      "title": "Hospitality",
+      "description": "We remember your name, your table, your preference. Every guest should feel as though the restaurant exists solely for them."
+    },
+    {
+      "title": "Restraint",
+      "description": "True luxury is knowing when to stop. A dish with three perfect elements is always superior to one with ten distractions."
+    }
+  ],
+  "team": [
+    {
+      "name": "Édouard Dubois",
+      "role": "Chef-Patron",
+      "image": "https://images.unsplash.com/photo-1581299894007-aaa50297cf16?w=400&q=85"
+    },
+    {
+      "name": "Claire Moreau",
+      "role": "Head Sommelier",
+      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=85"
+    },
+    {
+      "name": "Thomas Leroy",
+      "role": "Pastry Chef",
+      "image": "https://images.unsplash.com/photo-1607631568010-a87245c0daf8?w=400&q=85"
+    }
+  ]
+}

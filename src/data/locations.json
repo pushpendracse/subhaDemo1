@@ -1,0 +1,61 @@
+{
+  "locations": [
+    {
+      "id": "nyc",
+      "name": "New York — Flagship",
+      "address": "Barari Mathura, Uttar Pradesh 281001, India",
+      "neighbourhood": "Midtown Manhattan",
+      "phone": "+91 6307558532",
+      "email": "solutionshubhait@gmail.com",
+      "hours": {
+        "dinner": "Tue–Sun, 6:00 PM – 11:00 PM",
+        "lunch":  "Fri–Sun, 12:00 PM – 3:00 PM",
+        "closed": "Monday"
+      },
+      "features": ["Private Dining", "Wine Cellar", "Garden Terrace", "Chef's Table", "Valet Parking"],
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=85",
+      "lat": 40.7549,
+      "lng": -73.9840,
+      "isOpen": true,
+      "isPrimary": true
+    },
+    {
+      "id": "london",
+      "name": "London — Mayfair",
+      "address": "8 Mount Street, Mayfair, London W1K 3NF",
+      "neighbourhood": "Mayfair",
+      "phone": "+91 6307558532",
+      "email": "solutionshubhait@gmail.com",
+      "hours": {
+        "dinner": "Tue–Sun, 6:30 PM – 11:00 PM",
+        "lunch":  "Sat–Sun, 12:00 PM – 3:00 PM",
+        "closed": "Monday"
+      },
+      "features": ["Private Dining", "Tasting Menu", "Chef's Table", "Concierge"],
+      "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=85",
+      "lat": 51.5118,
+      "lng": -0.1502,
+      "isOpen": true,
+      "isPrimary": false
+    },
+    {
+      "id": "paris",
+      "name": "Paris — 8ème",
+      "address": "22 Avenue Montaigne, 75008 Paris",
+      "neighbourhood": "Avenue Montaigne",
+      "phone": "+91 6307558532",
+      "email": "solutionshubhait@gmail.com",
+      "hours": {
+        "dinner": "Tue–Sun, 7:00 PM – 11:30 PM",
+        "lunch":  "Fri–Sun, 12:00 PM – 2:30 PM",
+        "closed": "Monday"
+      },
+      "features": ["Heritage Building", "Private Salon", "Garden Courtyard", "Cellar Tours"],
+      "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=800&q=85",
+      "lat": 48.8665,
+      "lng": 2.3033,
+      "isOpen": true,
+      "isPrimary": false
+    }
+  ]
+}

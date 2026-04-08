@@ -1,0 +1,73 @@
+{
+  "summary": {
+    "averageRating": 4.9,
+    "totalReviews": 3847,
+    "publications": [
+      { "name": "The New York Times",  "quote": "A transcendent experience — five stars without hesitation." },
+      { "name": "Michelin Guide",      "quote": "Extraordinary finesse in every detail." },
+      { "name": "Wine Spectator",      "quote": "Perhaps the finest cellar in the city." }
+    ]
+  },
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Isabelle Fontaine",
+      "location": "Paris, France",
+      "rating": 5,
+      "comment": "Maison Dorée is simply peerless. The foie gras was ethereal, the service flawless, and the wine list a love letter to Burgundy. My husband and I felt as though we were the only guests in the room.",
+      "occasion": "Anniversary dinner",
+      "verified": true,
+      "date": "November 2025"
+    },
+    {
+      "id": 2,
+      "name": "Jonathan Ashworth",
+      "location": "London, UK",
+      "rating": 5,
+      "comment": "I have dined in three-Michelin-starred restaurants across Europe. Maison Dorée rivals them all. The Soufflé au Chocolat alone is worth the transatlantic flight.",
+      "occasion": "Business dinner",
+      "verified": true,
+      "date": "October 2025"
+    },
+    {
+      "id": 3,
+      "name": "Mei-Lin Chen",
+      "location": "Singapore",
+      "rating": 5,
+      "comment": "The Chef's Table experience was the highlight of our New York visit. Chef Dubois is a genius — the langoustine tartare was the most beautiful thing I've ever eaten.",
+      "occasion": "Special occasion",
+      "verified": true,
+      "date": "December 2025"
+    },
+    {
+      "id": 4,
+      "name": "Alessandro Ricci",
+      "location": "Milan, Italy",
+      "rating": 5,
+      "comment": "As a food critic, I rarely use superlatives. But Maison Dorée compels me to: impeccable, gracious, and utterly unforgettable. The Homard Thermidor is a masterwork.",
+      "occasion": "Food review",
+      "verified": true,
+      "date": "September 2025"
+    },
+    {
+      "id": 5,
+      "name": "Sophie & James Hargreaves",
+      "location": "New York, NY",
+      "rating": 5,
+      "comment": "Our wedding anniversary dinner exceeded every expectation. Our reserved table in the garden alcove, the personalised menu card — every detail made us feel utterly cherished.",
+      "occasion": "Wedding anniversary",
+      "verified": true,
+      "date": "October 2025"
+    },
+    {
+      "id": 6,
+      "name": "Dr. Priya Nair",
+      "location": "Boston, MA",
+      "rating": 5,
+      "comment": "The Sunday champagne brunch is a New York institution. The sommelier remembered my preference from a previous visit six months prior. That is the mark of true hospitality.",
+      "occasion": "Sunday brunch",
+      "verified": true,
+      "date": "November 2025"
+    }
+  ]
+}

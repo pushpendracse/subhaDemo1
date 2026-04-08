@@ -1,0 +1,39 @@
+{
+  "siteName": "Maison Dorée",
+  "tagline": "An Art of Fine Dining",
+  "description": "Where every dish is a masterpiece and every evening becomes an eternal memory. Michelin-starred French cuisine in the heart of the city.",
+  "established": "1997",
+  "awards": ["2 Michelin Stars", "AA Rosette", "Wine Spectator Grand Award"],
+  "contact": {
+    "phone": "+91 6307558532 ",
+    "email": "solutionshubhait@gmail.com",
+    "address": "Barari Mathura, Uttar Pradesh 281001, India",
+    "reservationUrl": "/reservations"
+  },
+  "hours": {
+    "dinner": "Tuesday – Sunday, 6:00 PM – 11:00 PM",
+    "lunch": "Friday – Sunday, 12:00 PM – 3:00 PM",
+    "closed": "Monday"
+  },
+  "social": {
+    "instagram": "https://instagram.com/maisondoree",
+    "facebook":  "https://facebook.com/maisondoree"
+  },
+  "stats": [
+    { "number": "2",    "label": "Michelin Stars" },
+    { "number": "27",   "label": "Years of Excellence" },
+    { "number": "4.9",  "label": "Guest Rating" }
+  ],
+  "heroImages": [
+    {
+      "src": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1800&q=90",
+      "alt": "Maison Dorée — fine dining experience"
+    }
+  ],
+  "metaDefaults": {
+    "title": "Maison Dorée — An Art of Fine Dining",
+    "description": "Two Michelin-starred French restaurant. Where culinary mastery meets timeless elegance. Reserve your table tonight.",
+    "keywords": "fine dining, michelin star, french restaurant, luxury dining, tasting menu, new york restaurant",
+    "ogImage": "/og-image.jpg"
+  }
+}
