@@ -1,5 +1,9 @@
 import { MetadataRoute } from "next";
+
+export const dynamic = "force-static";
+
 const base = "https://maisondoree.com";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: base,                      changeFrequency: "weekly",  priority: 1.0, lastModified: new Date() },
